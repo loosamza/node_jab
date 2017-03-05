@@ -1,0 +1,20 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HoroScope</title>
+  </head>
+  <body>
+     Horo Scope 4.0 <br>
+     <form action="">
+      <input type="text" name="name" />
+      <select>
+          <option>เลือกเพศ</option>
+          {{#sexes}}
+          <option value="{{sex}}">{{text}}</option>
+          {{/sexes}}
+      </select>
+      <input type="submit" value="ตกลง"/>
+      </form>
+  </body>
+</html>
